@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <title>Atividade formativa</title>
+</head>
+
+<body>
+
+    <div id="topo">
+        <img id="logo" src="img/4850286e-452a-401c-aab2-10212e701a21.jpg" alt="logo do site" />
+        <div id="titulo">
+            <h1>COVID-19</h1>
+        </div>
+    </div>
+    <header>
+
+        <nav>
+            <a href="index.html"><u>Home</u></a>
+            <a href="sobre.html"><u>Sobre</u></a>
+            <a href="equipe.html"><u>Equipe de Projeto</u></a>
+        </nav>
+
+    </header>
+    <div id="container">
+
+
+        <h3>Dados da API</h3>
+
+        <button id="btnObterDados" type="button" onclick="carregarDados();">
+            Carregar dados
+        </button>
+
+        <div id="div-erro">...</div>
+
+        <div id="dados">
+            <h3>Mapa Continental</h3>
+            <div id="mapa" class="area-grafico"></div>
+
+            <h3>Número de casos confirmados</h3>
+            <div id="tabela" class="area-grafico"></div>
+
+            <h3>Número de mortes </h3>
+            <div id="pizza" class="area-grafico"></div>
+
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
